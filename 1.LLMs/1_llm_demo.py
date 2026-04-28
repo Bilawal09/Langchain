@@ -5,6 +5,6 @@ load_dotenv()
 
 llm = OpenAI(model='gpt-3.5-turbo-instruct')
 
-result = llm.invoke("What is the capital of India")
+result = llm.invoke("What is the capital of Pakistan")
 
 print(result)
